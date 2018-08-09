@@ -11,7 +11,7 @@ RUN \
 # apt-get install --yes git python llvm clang libc++-dev && \
 #RUN cd smack && git checkout --track remotes/origin/bouman
 RUN apt-get install --yes mono-complete
-RUN git clone https://github.com/niekbouman/smack.git && cd smack && git checkout 18c1282dfec6c1dbfd
+RUN git clone https://github.com/niekbouman/smack.git && cd smack && git checkout 4329a142130ae432762e
 RUN \
  cd smack && \
  cd bin && \
